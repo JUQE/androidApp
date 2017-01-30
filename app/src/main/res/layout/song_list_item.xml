@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_name"
+        android:id="@+id/upvote_button"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/upvote_button"
+        android:paddingLeft="8dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/songArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/songName"
+        android:layout_toRightOf="@id/upvote_button"
+        />
+
+    <TextView
+        android:id="@+id/upvoteCount"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/upvote_button"
+        android:layout_toLeftOf="@id/songArtist"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:text="holder"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_venue_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context="com.example.brianofrim.juqe.VenueSignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Venue Name:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/nameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/venueName"
+        android:background="@color/fieldcolor"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="8dp"
+        android:textSize="18sp"
+        android:layout_below="@id/nameTextView"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeTextView"
+        android:layout_below="@id/venueName"
+        android:paddingTop="20sp"
+        android:text="Enter Venue Code:"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/venueCode"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="8dp"
+        android:textSize="18sp"
+        android:background="@color/fieldcolor"
+        android:layout_below="@id/codeTextView"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/createVenueButton"
+        />
+
+</RelativeLayout>

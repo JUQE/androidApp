@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brianofrim.juqe.CodeActivity">
+
+    <TextView
+        android:text="Juqe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:layout_centerHorizontal="true"
+        android:textScaleX="1"
+        android:hapticFeedbackEnabled="false"
+        android:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:text="Enter Venue Code:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/black"
+        android:id="@+id/code_edit_text"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/fieldcolor" />
+
+    <Button
+        android:text="Enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code_edit_text"
+        android:layout_marginTop="22dp"
+        android:id="@+id/codeButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignStart="@+id/code_edit_text" />
+
+    <TextView
+        android:text="Create a new Juqe Queue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createVenue"
+        android:textColor="@color/linkcolor"
+        android:layout_above="@+id/reconnectText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp" />
+
+    <TextView
+        android:text="Reconnect to your last Juqe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/reconnectText"
+        android:textColor="@color/linkcolor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_colour">#ffffff</color>
+    <color name="tertiary_colour">#ff8a65</color>
+    <color name="secondary_colour">#c61e19</color>
+    <color name="primary">#ff8a65</color>
+    <color name="primaryDark">#ff5722</color>
+    <color name="light_secondary_colour">#808e4497</color>
+    <color name="dark_tertiary_colour">#CA535D</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="light_tertiary_colour">#ca535d</color>
+    <color name="completed">#8E4199</color>
+    <color name="paid">#62156D</color>
+    <color name="uncompleted">#fdfdfd</color>
+    <color name="colorAccent">#e2e1e1</color>
+    <color name="fieldcolor">#ede7f6</color>
+    <color name="linkcolor">#158df1</color>
+    <color name="buttonPressed">#eeeeee</color>
+</resources>

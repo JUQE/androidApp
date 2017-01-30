@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">juqe</string>
+
+
+    <string-array name="search_type_array">
+        <item>Song</item>
+        <item>Artist</item>
+        <item>Album</item>
+    </string-array>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_voting">VotingActivity</string>
+    <string name="title_activity_song_pool">SongPoolActivity</string>
+</resources>
