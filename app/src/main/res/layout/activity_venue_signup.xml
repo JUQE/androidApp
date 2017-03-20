@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
-    tools:context="com.example.brianofrim.juqe.VenueSignupActivity">
+    tools:context="com.example.brianofrim.juqe.venue.VenueSignupActivity">
 
     <TextView
         android:layout_width="match_parent"
